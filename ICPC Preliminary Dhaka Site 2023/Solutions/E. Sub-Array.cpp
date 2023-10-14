@@ -26,7 +26,6 @@ long long f(long long x) {
 int k = 0;
 void Work() {
     cin >> n;
-
     for (int i = 1; i <= n; ++i) {
         cin >> a[i];
     }
@@ -46,5 +45,5 @@ int main() {
     while (T--) {
         Work();
     }
-    return 0;
+    return (EXIT_SUCCESS);
 }
