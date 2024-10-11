@@ -1,17 +1,13 @@
 #include <bits/stdc++.h>
-
 using namespace std;
+
 typedef long long ll;
-typedef long long int int64;
-#define input(v) for(auto &i : v) cin >> i
-#define line(x) getline(cin, x)
 #define endl "\n"
 #define exit exit(EXIT_SUCCESS);
-#define revArray(x, n) reverse(x, x+n);
 #define all(x)  x.begin(), x.end()
 #define ci const int
 const long long MOD = 1e9+7;
-using namespace std;
+
 ci N = 1e5+5;
 int n, a[N];
 
