@@ -1,10 +1,5 @@
 #include <bits/stdc++.h>
-#include <initializer_list>
-#include <scoped_allocator>
-#include <system_error>
-#include <type_traits>
-#include <unordered_map>
-#include <unordered_set>
+
 using namespace std;
 typedef long long ll;
 typedef long long int int64;
@@ -40,8 +35,7 @@ void Work() {
 }
 
 int main() {
-    int T;
-    cin >> T;
+    int T; cin >> T;
     while (T--) {
         Work();
     }
